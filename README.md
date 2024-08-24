@@ -1,1 +1,1 @@
-C programs for beginneers
+C programs for beginners
