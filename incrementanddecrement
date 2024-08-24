@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int x=12;
+    x=printf("%d",x++); //x=12;Post increment:print it as 12 then increment it 13,above statement only return the number of character to upcoming statement,so 12 has 2 character.so it assign a x value as 2 //
+    x=printf("%d",++x); //x=2;Pre increment: increment it  to 3,then it print on screen,above statement only return the number of character to upcoming statement,so 2 has 1 character.so it assign a x value as 1 //
+    printf("%d",++x);  //x=1;Pre increment: increment it  to 2,then it print on screen//
+    return 0;
+}
+
