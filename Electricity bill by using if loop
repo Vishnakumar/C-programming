@@ -1,11 +1,12 @@
 /*In this assignment you will write a program to generate electricity bill, when the program executes it will ask for the consumed unit (int) to input, once that is given by the user (who executes this program), then it will print the bill according to the following rule:
-
 Unit Consumed       Rate ($ per unit)
    <=100                  $0.2
 >100 and <=250            $0.5
 >250 and <=500            $0.75
    >500                   $1
-Please note that the rates are applied on slabs, that means for unit consumed of 300, first 100 units will be charges @$0.2, then next 150 units @$0.5, and rest of 50 units @0.75*/
+Please note that the rates are applied on slabs, that means for unit consumed of 300, first 100 units will be charges @$0.2, then next 150 units @$0.5, and rest of 50 units @0.75 */
+
+
 #include<stdio.h>
 int main()
 {
@@ -33,7 +34,6 @@ int main()
     {
         printf("Your total bills is $%.2f for %d consumed units,\nThank you!",(282.5+((unit-500)*1)),unit);
     }
-
 
 return 0;
 }
