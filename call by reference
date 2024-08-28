@@ -1,0 +1,14 @@
+//call by reference using pointer
+#include<stdio.h>
+int main()
+{
+    int a=7;
+    incr(&a);
+    printf("%d",a);
+}
+
+void incr(int *p)
+{
+    (*p)++;
+
+}
