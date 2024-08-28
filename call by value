@@ -1,0 +1,14 @@
+//call by value
+#include<stdio.h>
+int main()
+{
+    int a=7;
+    incr(a);//actual arg
+    printf("%d",a);
+}
+
+void incr(int p)//formal arg
+{
+     p++;
+
+}
