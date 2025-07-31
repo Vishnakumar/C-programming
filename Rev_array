@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int size;
+    printf("Enter the size: ");
+    scanf("%d", &size);
+    int temp_arr[size], arr[size];
+    printf("Enter the %d Values: ", size);
+    for(int i = 0 ; i < size ; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+    for(int j = 0 ; j < size ; j++)
+    {
+        temp_arr[size - 1 - j] = arr[j];
+    }
+    for(int z = 0; z < size ; z++)
+    {
+        printf("%d ", temp_arr[z]);
+    }
+    
+    return 0;
+
+}
